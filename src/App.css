@@ -22,13 +22,7 @@
   box-sizing: border-box;
 }
 
-.custom-row {
-  display: flex;
-  align-items: center;
-  position: relative;
-  left: 300px; /* Adjust this value as needed */
-  /* Add other styles as needed */
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -298,6 +292,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   animation: updown 3s linear infinite;
 
 }
+.contact-img {
+  animation: updown 3s linear infinite;
+}
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -377,7 +374,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgb(33, 13, 49);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -397,6 +394,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
+
 .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
@@ -481,7 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #110e10e3 -5.91%, #5806a5 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -554,7 +552,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background: black;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

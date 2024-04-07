@@ -56,10 +56,10 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2>
-                    
-                    <img src={logo} alt="Logo" style={{ width: "15%", height: "auto", marginLeft: "10px" }} />
-                  </h2>
+               <h2>
+  PROJECTS <br></br>
+  <img src={logo} alt="Logo" style={{ width: "13%", height: "auto", marginRight: "30px" }} />
+</h2>
                   <Carousel responsive={responsive} infinite={true} className="project-slider">
                     {projects.map((project, index) => (
                       <div key={index} className="project-slide">
